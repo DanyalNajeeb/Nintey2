@@ -1,0 +1,252 @@
+body{
+   
+    background:url('../images/home_page1.png')no-repeat center center fixed;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-position: center;
+    
+      
+      
+}
+.main-body{
+    width: 100%;
+    
+
+}
+h1{
+    color: blue!important;
+}
+.header{
+
+    background: url('../images/header.png');
+    width: 100%;
+    height:  300px;;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-size: cover;
+    position: relative;
+    max-width: 100%;
+
+        
+}
+.header .logo{
+
+    margin:0 auto;
+    width: 20%;
+    box-shadow: 5px 5px 8px  #888888;
+    
+
+}
+.header .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.navigation-bar{
+    position: absolute;
+  bottom: 10px;
+  width: 100%;
+  
+
+}
+.navigation-bar .navbar .navbar-collapse ul li a{
+    font-family: Calibri,'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+    color: #3d3d3d;
+    font-size: 22px;
+    margin-right: 0px;
+}
+
+.navigation-bar .navbar .navbar-collapse ul li .active,.navigation-bar .navbar .navbar-collapse ul li a:hover{
+color: #fd4505;
+}
+
+.navigation-bar .navbar .navbar-collapse ul{
+
+
+
+display: flex;
+
+justify-content: center;
+
+width: 100%;}
+
+
+.banner img{
+width: 100%;
+}
+.all-content{
+    background-color: #dfdfdf;
+}
+.main-body .home-content p{
+    font-family: Calibri,'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+    color: #3d3d3d;
+    font-size: 22px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+.home-content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    width: 90%;
+}
+
+.footer{
+    margin-top: 35px;
+    height: 100px;
+    background-color: #fd4505;
+    text-align: center;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 8px  #888888;
+
+    
+}
+.footer p{
+    padding-top: 35px!important;
+    font-family: Calibri,'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 22px;
+}
+.container-fluid{
+    padding: 0px!important;
+}
+.contact-form{
+    width: 300px;
+}
+.contact-form input{
+    max-width: 70%;
+} 
+.banner p {
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 700;
+   color:  #757575; 
+}
+.services img{
+    height: 100px;
+}
+.col-lg-3{
+    margin-bottom: 100px;
+    
+}
+.navigation-bar .navbar .navbar-collapse ul li{
+
+    margin: auto;
+}
+.services{
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+
+@media screen and (max-width: 430px) {
+
+    .header{
+        height: 100px!important;
+        
+    }
+    .header img{
+        background-size: cover;
+    }
+
+    .navigation-bar .navbar .navbar-collapse ul li a{
+        font-size: 15px;
+        padding-bottom: 0px;
+    }
+    .navigation-bar{
+        position: absolute;
+      bottom: 0px;
+      width: 100%;
+      
+    
+    }
+    .main-body .home-content p{
+        font-size: 15px;
+        
+    }
+    .home-content{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+    }
+    .footer{
+        margin-top: 20px;
+        height: 50px;
+        width: 100%;
+        
+        bottom: 10px;
+       
+    }
+    .footer p{
+        padding-top: 10px!important;
+        
+        font-size: 10px!important;
+    }
+    .banner p {
+        font-size:12px  ;
+    }
+    
+}
+
+@media screen and (max-width: 990px) {
+   
+    .header{
+        height: 200px;
+    }
+}
+@media screen and (max-width: 610px) {
+    .footer p{
+        padding-top: 28px!important;
+        
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+   
+    .header{
+        height: 150px;
+    }
+
+    .main-body .home-content p{
+        font-size: 15px;
+    }
+
+    .navigation-bar .navbar .navbar-collapse ul li a{
+        font-size: 18px;
+        padding-bottom: 0px;
+    }
+
+
+
+
+  }
+ 
+
+  @media (min-width: 768px) and (max-width: 1000px) {
+    .collapse {
+        display: none !important;
+    }
+    .header{
+        height: 250px;
+    }
+ }
